@@ -103,7 +103,8 @@
 - (NSNumber *) generateID
 {
     unsigned int r = arc4random_uniform(exp2(32)-1);
-    return [NSNumber numberWithInt:r];
+    return [NSNumber numberWithDouble:r];
+//    return [NSNumber numberWithInt:r];
 }
 
 - (void) cleanUp {

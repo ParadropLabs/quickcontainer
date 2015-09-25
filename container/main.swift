@@ -36,14 +36,28 @@ class RiffleSession: NSObject, MDWampClientDelegate {
     func mdwamp(wamp: MDWamp!, sessionEstablished info: [NSObject : AnyObject]!) {
         print("Session Established!")
         
+//        wamp.publishTo("pd.damouse.quick/sub", payload: "Publish from container", result: { (err: NSError!) -> Void in
+//            if let e = err {
+//                print("Error: ", e)
+//            }
+//        })
+        
         // Register methods
         wamp.registerRPC("pd.damouse.quick/hello", procedure: { (wamp: MDWamp!, invocation: MDWampInvocation!) -> Void in
             print("Someone called hello: ", invocation)
-//            print("", invocation.request)
-//            print("", invocation.registration)
-//            print("", invocation.options)
-//            print("", invocation.arguments)
+            print("", invocation.request)
+            print("", invocation.registration)
+            print("", invocation.options)
+            print("", invocation.arguments)
 //            print("", invocation.argumentsKw)
+            
+            print("Returning a publish")
+            
+            wamp.publishTo("pd.damouse.quick/pub", payload: "Publish from container", result: { (err: NSError!) -> Void in
+                if let e = err {
+                    print("Error: ", e)
+                }
+            })
             
         }, cancelHandler: { () -> Void in
             print("Register Cancelled!")
