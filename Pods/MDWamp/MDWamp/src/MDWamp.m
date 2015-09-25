@@ -466,6 +466,7 @@
         }
         
         NSArray *procedures = nil;
+        
         // store the procedure and cancel handler
         if ([registrationRequest count] == 4) {
             // we have the cancelation handler
