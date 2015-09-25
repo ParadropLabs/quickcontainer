@@ -42,7 +42,8 @@ class RiffleSession: NSObject, MDWampClientDelegate {
         }, cancelHandler: { () -> Void in
             print("Register Cancelled!")
         }) { (err: NSError!) -> Void in
-            print("An error occured: ", err)
+//            print("An error occured: ", err)
+            print("Registration completed. (or maybe an error?)")
         }
     }
     
