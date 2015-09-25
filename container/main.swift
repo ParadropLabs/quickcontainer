@@ -20,14 +20,13 @@ class RiffleSession: NSObject, MDWampClientDelegate {
     
     override init() {
         super.init()
-        print("Attempting to connect...")
-
         socket = MDWampTransportWebSocket(server:NSURL(string: "ws://localhost:8000/ws"), protocolVersions:[kMDWampProtocolWamp2msgpack, kMDWampProtocolWamp2json])
         session = MDWamp(transport: socket, realm: "pd.damouse", delegate: self)
         
     }
     
     func connect() {
+        print("Attempting to connect...")
         session?.connect()
     }
     
@@ -77,7 +76,8 @@ let s = RiffleSession()
 //NSThread.sleepForTimeInterval(2)
 
 // Attempt 4
-
+s.connect()
+NSRunLoop.currentRunLoop().run()
 
 print("Done")
 
