@@ -38,7 +38,13 @@ class RiffleSession: NSObject, MDWampClientDelegate {
         
         // Register methods
         wamp.registerRPC("pd.damouse.quick/hello", procedure: { (wamp: MDWamp!, invocation: MDWampInvocation!) -> Void in
-            print("Someone called hello!")
+            print("Someone called hello: ", invocation)
+//            print("", invocation.request)
+//            print("", invocation.registration)
+//            print("", invocation.options)
+//            print("", invocation.arguments)
+//            print("", invocation.argumentsKw)
+            
         }, cancelHandler: { () -> Void in
             print("Register Cancelled!")
         }) { (err: NSError!) -> Void in
