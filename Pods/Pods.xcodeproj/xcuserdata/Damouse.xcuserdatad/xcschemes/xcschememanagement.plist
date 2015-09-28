@@ -14,17 +14,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MDWamp.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MPMessagePack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Riffle-Riffle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Riffle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0ECFAD8674DA209D62F8B8A38622FC11</key>
+		<key>0C459F826C4D8B9FDAB53CB3FF489C0A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D7071BB97B41749E1398A352A85AC3B</key>
+		<key>11312917E634C03D2FCFB83433D92169</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94F7F189F3302603E3064AD0A6552133</key>
+		<key>2241CC4A31C1197CA9B38AD795302E0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DCA46759A5A209461439DF3272D827E</key>
+		<key>50B8E0839FB5C81E4A9C56E4E06F67FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E242884BF5BEF8DF4C93FA8E4AA26549</key>
+		<key>6EDB90AC17BBAE3390155C0B3A0B24D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3F098EF0F3739C3AD7343A22E569AE7</key>
+		<key>859A506387B97F697CBE128B00B93483</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C86F07D15FE184142DDC159F1294D2D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

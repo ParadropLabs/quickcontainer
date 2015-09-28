@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23BE8FD155A281E428566A3C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D571F69F2CFA0CAB0A2D85 /* libPods.a */; };
+		468966595295A7369807B295 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D2612E0D3CB77FEC3F028D /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		506F19901BB4EF100041A9D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506F198F1BB4EF100041A9D2 /* main.swift */; };
 		506F19971BB4F0130041A9D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506F19961BB4F0130041A9D2 /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -25,11 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		29D571F69F2CFA0CAB0A2D85 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D2612E0D3CB77FEC3F028D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506F198C1BB4EF100041A9D2 /* container */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = container; sourceTree = BUILT_PRODUCTS_DIR; };
 		506F198F1BB4EF100041A9D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		506F19961BB4F0130041A9D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		506F199A1BB4F3FC0041A9D2 /* container-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "container-Briding-Header.h"; sourceTree = "<group>"; };
+		50F226EE1BB8F25600ECFF76 /* Riffle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Riffle.framework; path = "../../../../Library/Developer/Xcode/DerivedData/container-hdbdsweiinhfpnaqptfnqamteocn/Build/Products/Debug/Riffle.framework"; sourceTree = "<group>"; };
 		6ABFA29FF6B387A25FFC127E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7C097760B0CF0126919DD053 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506F19971BB4F0130041A9D2 /* Security.framework in Frameworks */,
-				23BE8FD155A281E428566A3C /* libPods.a in Frameworks */,
+				468966595295A7369807B295 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +87,9 @@
 		B596496BF58B5D8250852654 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50F226EE1BB8F25600ECFF76 /* Riffle.framework */,
 				506F19961BB4F0130041A9D2 /* Security.framework */,
-				29D571F69F2CFA0CAB0A2D85 /* libPods.a */,
+				27D2612E0D3CB77FEC3F028D /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

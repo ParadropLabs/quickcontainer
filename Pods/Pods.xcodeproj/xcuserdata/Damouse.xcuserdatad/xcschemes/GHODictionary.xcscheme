@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "264405A4A3FFE9A9FDA6266F"
-               BuildableName = "libGHODictionary.a"
+               BlueprintIdentifier = "30314268F635A97B1F2F38FD"
+               BuildableName = "GHODictionary.framework"
                BlueprintName = "GHODictionary"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -9,6 +9,6 @@
 #ifndef container_Briding_Header_h
 #define container_Briding_Header_h
 
-#import "MDWamp.h"
+//#import "MDWamp.h"
 
 #endif /* container_Briding_Header_h */
